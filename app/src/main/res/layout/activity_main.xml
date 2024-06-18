@@ -45,11 +45,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/primary_dark"
+        app:itemActiveIndicatorStyle="@android:color/transparent"
         app:itemIconTint="@color/bottom_nav_selector"
         app:itemTextColor="@color/bottom_nav_selector"
-        app:itemActiveIndicatorStyle="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_menu" />
 </androidx.constraintlayout.widget.ConstraintLayout>
