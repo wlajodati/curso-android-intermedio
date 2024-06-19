@@ -42,18 +42,18 @@ class HoroscopeFragment : Fragment() {
     private fun initList() {
         horoscopeAdapter = HoroscopeAdapter(onItemSelected = {
             val zodiac = when (it) {
-                Aquarius -> HoroscopeModel.Aries
-                Aries -> HoroscopeModel.Taurus
-                Cancer -> HoroscopeModel.Gemini
-                Capricorn -> HoroscopeModel.Cancer
-                Gemini -> HoroscopeModel.Leo
-                Leo -> HoroscopeModel.Virgo
+                Aries -> HoroscopeModel.Aries
+                Taurus -> HoroscopeModel.Taurus
+                Gemini -> HoroscopeModel.Gemini
+                Cancer -> HoroscopeModel.Cancer
+                Leo -> HoroscopeModel.Leo
+                Virgo -> HoroscopeModel.Virgo
                 Libra -> HoroscopeModel.Libra
-                Pisces -> HoroscopeModel.Scorpio
-                Sagitarius -> HoroscopeModel.Sagitarius
-                Scorpio -> HoroscopeModel.Capricorn
-                Taurus -> HoroscopeModel.Aquarius
-                Virgo -> HoroscopeModel.Pisces
+                Scorpio -> HoroscopeModel.Scorpio
+                Sagittarius -> HoroscopeModel.Sagittarius
+                Capricorn -> HoroscopeModel.Capricorn
+                Aquarius -> HoroscopeModel.Aquarius
+                Pisces -> HoroscopeModel.Pisces
             }
 
             findNavController().navigate(
